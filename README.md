@@ -93,7 +93,7 @@ HTML / CSS / JavaScript
 ### トップページ
 
 PC / スマートフォン
-![トップページ PC](top_pc.png)
+<img src="top_pc.png" alt="トップページ PC" width="700">
 
 ### 記事一覧
 
