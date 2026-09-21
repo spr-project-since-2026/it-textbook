@@ -94,7 +94,7 @@ HTML / CSS / JavaScript
 
 PC / スマートフォン
 
-（ここにスクリーンショット）
+top_pc.png
 
 ### 記事一覧
 
