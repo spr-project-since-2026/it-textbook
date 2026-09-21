@@ -115,11 +115,11 @@ PC / スマートフォン
 
 ### 記事詳細
 
-
+<img src="details.png" alt="記事詳細" width="700">
 
 ### ログイン
 
-<img src="login.png" alt="記事一覧" width="700">
+<img src="login.png" alt="ログイン" width="700">
 
 ---
 
