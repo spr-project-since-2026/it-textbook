@@ -119,7 +119,7 @@ PC / スマートフォン
 
 ### ログイン
 
-<img src="login.png" alt="ログイン" width="700">
+<img src="log_in.png" alt="ログイン" width="700">
 
 ---
 
