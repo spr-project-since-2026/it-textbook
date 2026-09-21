@@ -94,7 +94,7 @@ HTML / CSS / JavaScript
 
 PC / スマートフォン
 <img src="top_pc.png" alt="トップページ PC" width="700">
-
+<img src="top_sp.png" alt="トップページ スマートフォン" width="300">
 ### 記事一覧
 
 （ここにスクリーンショット）
