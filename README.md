@@ -92,7 +92,6 @@ HTML / CSS / JavaScript
 
 ### トップページ
 
-PC / スマートフォン
 <table>
   <tr>
     <td align="center"><strong>PC</strong></td>
