@@ -1,0 +1,392 @@
+/* ==================================================
+   ヘッダー
+================================================== */
+
+.site-header {
+    margin-top: 28px;
+    padding: 18px;
+
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    gap: 18px;
+
+    background: rgba(255, 255, 255, .97);
+    border-radius: 22px;
+    box-shadow: var(--shadow);
+}
+
+
+/* ==================================================
+   ブランド
+================================================== */
+
+.brand {
+    position: relative;
+    padding: 14px 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-title {
+    margin: 0 0 9px;
+
+    font-size: 27px;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: .02em;
+}
+
+.brand-subtitle {
+    margin: 0;
+
+    color: #596d7b;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.brand-line {
+    position: relative;
+
+    width: 180px;
+    height: 14px;
+
+    margin-top: 5px;
+
+    border-bottom: 3px solid #68c4ef;
+    border-radius: 50%;
+}
+
+
+/* ==================================================
+   ナビゲーション
+================================================== */
+
+.menu-toggle {
+    display: none;
+}
+
+.main-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.nav-card {
+    min-width: 0;
+    min-height: 112px;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    color: var(--navy);
+    text-decoration: none;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 4px 12px rgba(45, 76, 96, .08);
+
+    transition:
+        transform .15s ease,
+        box-shadow .15s ease;
+}
+
+.nav-card:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 7px 16px rgba(45, 76, 96, .13);
+}
+
+.nav-top {
+    background: var(--blue-light);
+}
+
+.nav-articles {
+    background: var(--yellow-light);
+}
+
+.nav-about {
+    background: var(--green-light);
+}
+
+.nav-icon {
+    position: relative;
+
+    flex: 0 0 58px;
+    width: 58px;
+    height: 58px;
+}
+
+.nav-text {
+    min-width: 0;
+}
+
+.nav-text strong {
+    display: block;
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.nav-text span {
+    display: block;
+
+    color: #5e7180;
+
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+/* ==================================================
+   TOP：鉢植え
+================================================== */
+
+.plant-icon {
+    position: relative;
+
+    width: 58px;
+    height: 58px;
+}
+
+.plant-stem {
+    position: absolute;
+
+    left: 28px;
+    top: 10px;
+
+    width: 4px;
+    height: 27px;
+
+    background: var(--green);
+    border-radius: 4px;
+}
+
+.plant-leaf {
+    position: absolute;
+
+    top: 5px;
+
+    width: 21px;
+    height: 13px;
+
+    background: var(--green);
+}
+
+.plant-leaf.left {
+    left: 8px;
+
+    border-radius: 18px 3px 18px 3px;
+    transform: rotate(20deg);
+}
+
+.plant-leaf.right {
+    right: 7px;
+
+    border-radius: 3px 18px 3px 18px;
+    transform: rotate(-20deg);
+}
+
+.plant-pot-top {
+    position: absolute;
+
+    left: 15px;
+    top: 31px;
+
+    width: 31px;
+    height: 8px;
+
+    background: #c9864d;
+    border-radius: 4px;
+}
+
+.plant-pot {
+    position: absolute;
+
+    left: 19px;
+    top: 37px;
+
+    width: 23px;
+    height: 17px;
+
+    background: #b9723d;
+
+    clip-path:
+        polygon(
+            0 0,
+            100% 0,
+            82% 100%,
+            18% 100%
+        );
+
+    border-radius: 0 0 4px 4px;
+}
+
+
+/* ==================================================
+   ARTICLES：鉛筆
+================================================== */
+
+.pencil-icon {
+    position: absolute;
+
+    left: 7px;
+    top: 23px;
+
+    width: 42px;
+    height: 14px;
+
+    background: var(--orange);
+    border-radius: 4px;
+
+    transform: rotate(-42deg);
+}
+
+.pencil-icon::before {
+    content: "";
+
+    position: absolute;
+
+    left: -12px;
+    top: 0;
+
+    width: 0;
+    height: 0;
+
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 13px solid #e9c38d;
+}
+
+.pencil-icon::after {
+    content: "";
+
+    position: absolute;
+
+    right: -9px;
+    top: 0;
+
+    width: 11px;
+    height: 14px;
+
+    background: #ef8567;
+    border-radius: 0 4px 4px 0;
+}
+
+
+/* ==================================================
+   ABOUT：ノートPC
+================================================== */
+
+.laptop-icon {
+    position: absolute;
+
+    left: 6px;
+    top: 8px;
+
+    width: 45px;
+    height: 31px;
+
+    border: 4px solid var(--green);
+    border-radius: 4px;
+
+    background: rgba(88, 188, 104, .06);
+}
+
+.laptop-icon::before {
+    content: "";
+
+    position: absolute;
+
+    left: -8px;
+    bottom: -12px;
+
+    width: 53px;
+    height: 8px;
+
+    background: var(--green);
+    border-radius: 2px 2px 7px 7px;
+}
+/* ==================================================
+   スマホ用ヘッダー・ハンバーガーメニュー
+================================================== */
+
+@media (max-width: 620px) {
+
+    .site-header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px 20px;
+    }
+
+    .brand {
+        text-align: left;
+    }
+
+    .brand-title {
+        font-size: 20px;
+    }
+
+    .brand-subtitle,
+    .brand-line {
+        display: none;
+    }
+
+    .menu-toggle {
+        width: 44px;
+        height: 44px;
+        padding: 9px;
+
+        border: 0;
+        border-radius: 10px;
+        background: var(--blue-light);
+
+        cursor: pointer;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        flex-shrink: 0;
+    }
+
+    .menu-toggle span {
+        display: block;
+
+        width: 100%;
+        height: 3px;
+
+        background: var(--navy);
+        border-radius: 999px;
+    }
+
+    .main-nav {
+        display: none;
+　　　　grid-template-columns: 1fr;
+    }
+
+    .main-nav.is-open {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        right: 0;
+        z-index: 100;
+
+        padding: 12px;
+
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: var(--shadow);
+    }
+}

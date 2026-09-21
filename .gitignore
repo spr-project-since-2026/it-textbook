@@ -1,0 +1,23 @@
+# 秘密情報
+db.php
+
+# バックアップ
+*.bak
+*.bak-*
+
+# Git
+.git/
+
+# 一時ファイル
+*.tmp
+*.log
+
+# 管理・開発用
+admin.php
+article-add.php
+article-delete.php
+article-edit.php
+article-status.php
+db-test.php
+import-001.php
+import-article.php
