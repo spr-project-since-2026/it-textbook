@@ -93,8 +93,20 @@ HTML / CSS / JavaScript
 ### トップページ
 
 PC / スマートフォン
-<img src="top_pc.png" alt="トップページ PC" width="700">
-<img src="top_sp.png" alt="トップページ スマートフォン" width="300">
+<table>
+  <tr>
+    <td align="center"><strong>PC</strong></td>
+    <td align="center"><strong>スマートフォン</strong></td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="top_pc.png" alt="トップページ PC" width="650">
+    </td>
+    <td valign="top">
+      <img src="top_sp.png" alt="トップページ スマートフォン" width="250">
+    </td>
+  </tr>
+</table>
 ### 記事一覧
 
 （ここにスクリーンショット）
