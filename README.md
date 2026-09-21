@@ -93,8 +93,7 @@ HTML / CSS / JavaScript
 ### トップページ
 
 PC / スマートフォン
-
-[top_pc.png](https://github.com/spr-project-since-2026/it-textbook/blob/main/top_pc.png)
+![トップページ PC](top_pc.png)
 
 ### 記事一覧
 
