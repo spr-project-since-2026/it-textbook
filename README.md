@@ -2,8 +2,8 @@
 
 作って、動かして、理解する。
 
-PHP・MariaDB・Linux・nginxを使って、
-VPS上に自作CMSと学習サイトを構築しています。
+PHP・MariaDB・Linux・nginxを使い、VPS上でWeb開発の仕組みを学びながら、その過程を「IT教科書」として公開しています。
+現在は、React＋Supabaseで制作した音楽CMS「ミュージキュン」を、PHP＋MariaDBで作りかえるプロジェクトも進めています。
 
 ---
 
